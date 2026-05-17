@@ -33,3 +33,21 @@ print()
 s = "Mississippi"
 print(s.count("s"))
 
+numbers = even + odd
+print(numbers)
+
+sorted_numbers = sorted(numbers)
+print(sorted_numbers)
+
+digits = list("3648273284580")
+print(digits)
+
+more_numbers = list(numbers)
+print(more_numbers)
+
+print(numbers is more_numbers)
+
+computer_parts = ["Keyboard", "Mouse", "Monitor", "Computer"]
+print(computer_parts)
+computer_parts[3] = "Mouse Pad"
+print(computer_parts)

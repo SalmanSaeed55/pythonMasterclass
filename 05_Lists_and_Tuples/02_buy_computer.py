@@ -8,8 +8,14 @@ for i in range(len(available_part) + 1):
 
 while current_choice != "0":
     if current_choice in valid_choices:
-        print(f"Adding {available_part[int(current_choice) - 1]} to the list.")
-        computer_parts.append(available_part[int(current_choice) - 1])
+        selected_part = available_part[int(current_choice) - 1]
+        if selected_part in computer_parts:
+            print(f"Removing {selected_part} from the list.")
+            computer_parts.remove(selected_part)
+        else:
+            print(f"Adding {selected_part} to the list.")
+            computer_parts.append(selected_part)
+        print(f"Your list now contains {computer_parts}")
     else:
         print("Please add options from the list below:")
         for i, part in enumerate(available_part):
