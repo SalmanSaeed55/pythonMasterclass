@@ -8,3 +8,5 @@ include:
 1. **03_Fundamentals**: Introduction to Python, setting up the environment, and writing your
 2. **04_Program_Flow_Techniques**: Control flow techniques, including loops and conditionals.
 3. **05_Lists_and_Tuples**: Working with lists and tuples, which are fundamental data structures in Python.
+4. **06_Functions_Intro**: Introduction to functions, how to define and use them in Python, along with uses of 
+   docstrings and types of arguments to pass through functions
