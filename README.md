@@ -10,3 +10,4 @@ include:
 3. **05_Lists_and_Tuples**: Working with lists and tuples, which are fundamental data structures in Python.
 4. **06_Functions_Intro**: Introduction to functions, how to define and use them in Python, along with uses of 
    docstrings and types of arguments to pass through functions
+5. **07_Dictionaries_and_Sets**: Understanding dictionaries and sets, which are powerful data structures for storing and manipulating data.
