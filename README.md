@@ -11,5 +11,6 @@ include:
 4. **06_Functions_Intro**: Introduction to functions, how to define and use them in Python, along with uses of 
    docstrings and types of arguments to pass through functions
 5. **07_Dictionaries_and_Sets**: Understanding dictionaries and sets, which are powerful data structures for storing and manipulating data.
-6. **08_Inputs_and_Outputs**: Reading, writing and manipulating data to and from files using Python, including 
-   useful modules like the `csv` module.
+6. **08_Inputs_and_Outputs**: Reading, writing and manipulating data to and from files using Python, including useful modules like the `csv` module.
+7. **09_Modules_and_Advanced_Functions**: Exploring modules and advanced function concepts, including nested 
+   functions and how modules can be imported
