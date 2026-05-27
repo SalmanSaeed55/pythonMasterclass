@@ -1,0 +1,34 @@
+import tkinter as tk
+
+def parabola(x):
+    y = x * x / 100
+    return y
+
+
+def draw_axis(canvas):
+    canvas.update()
+    x_origin = canvas.winfo_rootx() / 2
+    y_origin = canvas.winfo_rooty() / 2
+    canvas.configure(scrollregion=(-x_origin, -y_origin, x_origin, y_origin))
+    canvas.create_line(-x_origin, 0, x_origin, 0, fill="black")
+    canvas.create_line(0, -y_origin, 0, y_origin, fill="black")
+
+
+def plot(canvas, x, y):
+    canvas.create_line(x, y, x + 1, y + 1, fill="red")
+
+
+mainWindow = tk.Tk()
+mainWindow.title("Parabola")
+mainWindow.geometry("640x480")
+
+canvas = tk.Canvas(mainWindow, width=640, height=480)
+canvas.grid(row=0, column=0)
+
+draw_axis(canvas)
+
+for x in range (-100, 100):
+    ans = parabola(x)
+    plot(canvas, x, -ans)
+
+mainWindow.mainloop()
