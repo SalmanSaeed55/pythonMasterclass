@@ -14,3 +14,4 @@ include:
 6. **08_Inputs_and_Outputs**: Reading, writing and manipulating data to and from files using Python, including useful modules like the `csv` module.
 7. **09_Modules_and_Advanced_Functions**: Exploring modules and advanced function concepts, including nested functions and how modules can be imported
 8. **10_Date_and_Time_Handling**: Working with date and time in Python, including the `datetime` module - basic implementation
+9. **11_GUIs_with_Tkinter**: Introduction to creating graphical user interfaces (GUIs) using the Tkinter library in Python.
