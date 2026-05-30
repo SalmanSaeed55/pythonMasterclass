@@ -14,7 +14,7 @@ from database_objects import Database, databases, add_database
 from ui_widgets import FrameTree, TableView, MessageEntry, RefocusButton, FocusNotebook
 
 VERSION = '1.10'
-ALLOW_SCRIPTS = False
+ALLOW_SCRIPTS = True
 
 # ******************************************************************************
 # **                    Configuration options and functions                   **
@@ -496,12 +496,10 @@ database_tree = FrameTree(left_frame, title='Databases')
 database_tree.grid(row=1, column=0, sticky='nsew')
 
 # Add the editor toolbar buttons.
-run_query_button = RefocusButton(editor_toolbar, focus_window=code_tabs, text='Run query', command=run_query,
-                                 underline=0)
+run_query_button = RefocusButton(editor_toolbar, focus_window=code_tabs, text='Run query', command=run_query, underline=0)
 run_query_button.pack(side='left')
 if ALLOW_SCRIPTS:
-    execute_script_button = RefocusButton(editor_toolbar, focus_window=code_tabs, text='Execute script',
-                                          command=execute_script)
+    execute_script_button = RefocusButton(editor_toolbar, focus_window=code_tabs, text='Execute script', command=execute_script)
     execute_script_button.pack(side='left')
 
 font_button = RefocusButton(editor_toolbar, focus_window=code_tabs, text='Large fonts', command=set_fonts)
