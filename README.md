@@ -18,3 +18,4 @@ include:
 10. **12_OOP_in_Python**: Object-oriented programming concepts in Python, including classes, objects and inheritance.
 11. **13_DB_with_SQLite3**: Working with databases using the SQLite3 module in Python, including creating and managing databases.
 12. **14_Generators_and_Lambdas**: Understanding generators and lambda functions in Python, which are powerful tools for creating iterators and anonymous functions.
+13. **15_Algorithm_Efficiency**: Exploring algorithm efficiency and Big O notation, along with a basic implementation of a bubble sort algorithm.
